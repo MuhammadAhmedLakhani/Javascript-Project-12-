@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -18,5 +18,179 @@ body{
 .cont {
     width: 40vw;
     height: 90vh;
-    background-color: rgb(113, 167, 167);
+    background-color: rgb(200, 223, 240);
+    border-radius: 20px;
+
+}
+
+.header-cont {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+/* .header > select {
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 25px;
+    width:40%;
+
+    
+} */
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading>h1 {
+    width:70%;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(13, 144, 238);
+
+}
+
+.header>.input>input {
+    height: 100%;
+    font-size: 25px;
+    width: 80%;
+    background-color: rgb(122, 169, 213);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input {
+    width: 105%;
+    height: 35%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.input-image {
+    display: flex;
+    width: 18%;
+}
+
+.input-image>button {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* overflow: hidden; */
+}
+
+.tabs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs>div h3 {
+    font-size: 22px;
+    color: rgb(1, 33, 62);
+}
+
+.border {
+    border-bottom: 2px solid #fff;
+}
+
+.tabs div {
+    width: 30%;
+    text-align: center;
+
+}
+
+.data {
+    width: 45%
+}
+
+.image {
+    width: 40%;
+    display: flex;
+    justify-content:end;
+    /* align-items: flex-end; */
+}
+
+.image>img {
+    width:80%;
+    height:70%;
+    object-fit: contain;
+}
+
+.middle {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.date>span {
+    font-size: 30px;
+}
+
+.s1 {
+    margin-right: 15px;
+}
+.tem1 span {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.tem2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tem2 > h1 {
+    font-size: 110px;
+    margin: 0px;
+    width: 40%;
+    color: #fff;
+    font-weight: 300;
+}
+
+.tem2 sub {
+    font-size: 50px;
+    color: #fff;
+}
+
+.tem3 span {
+    font-size: 30px;
+    color: #fff;
+}
+
+.details {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details div {
+    width:25%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details div > h3 {
+    margin: 0;
 }
