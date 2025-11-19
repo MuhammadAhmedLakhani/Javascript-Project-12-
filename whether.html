@@ -21,9 +21,9 @@
                         <h1>Wheather App</h1>
                     </div>
                     <div class="input">
-                        <input type="text" placeholder="Enter City Name">
+                        <input type="text" placeholder="Enter City Name" id="input">
                         <div class="input-image">
-                            <button>
+                            <button onclick="getValue()">
                                 <img src="images/ok.png" alt="" width="40px" height="40px">
                             </button>
                         </div>
@@ -44,29 +44,28 @@
                     </div>
                     <div class="temperature">
                         <div class="tem1">
-                            <span class="s1">Day 65 C</span>
-                            <span>Night 46 C</span>
+                            <h1  id="description">Haze</h1>
                         </div>
-                        <div class="tem2"><h1>64</h1><sub>F</sub></div>
+                        <div class="tem2"><h1 id="temp">64</h1><sub>C</sub></div>
                         <div class="tem3">
-                            <span>Feels like 45</span>
+                            <span id="feel">Feels like 45</span>
                         </div>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="images/weather.png" alt=""    >
+                    <img src="images/weather.png" alt="" id="image" >
                 </div>
             </div>
             <div class="details">
-                <div class="detail1"><h3>30km/h</h3><span><img src="images/wind.png" alt="" width="30px" height="40px"></span></div>
-                <div class="detail2"><h3>40%</h3><span><img src="images/humidity.png" alt="" width="30px" height="40px"></span></div>
-                <div class="detail3"><h3>23</h3><span><img src="images/wind.png" alt="" width="30px" height="40px"></span></div>
+                <div class="detail1"><h3 id="speed">30km/h</h3><span><img src="images/wind.png" alt="" width="30px" height="40px"></span></div>
+                <div class="detail2"><h3 id="humidity">40%</h3><span><img src="images/humidity.png" alt="" width="30px" height="40px"></span></div>
+                <div class="detail3"  ><h3 id="visibility">23</h3><span><img src="images/visibility.png" alt="" width="30px" height="40px"></span></div>
             </div>
         </div>
     </div>
 
 
-    <!-- <script src="#"></script> -->
+    <script src="whether.js"></script>
 </body>
 
 </html>

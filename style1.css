@@ -128,7 +128,7 @@ body {
 
 .image>img {
     width:80%;
-    height:70%;
+    height:90%;
     object-fit: contain;
 }
 
@@ -145,16 +145,25 @@ body {
 .s1 {
     margin-right: 15px;
 }
-.tem1 span {
-    display: inline-block;
+.tem1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width:60%; */
+}
+
+.tem1 > h1 {
+    /* display: inline-block; */
+    justify-content: center;
+    margin : 0;
     margin-top: 20px;
     font-size: 30px;
-    color: #fff;
+    color: rgb(13, 144, 238);
     font-weight: 500;
 }
 
 .tem2 {
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
 }
@@ -164,6 +173,7 @@ body {
     margin: 0px;
     width: 40%;
     color: #fff;
+
     font-weight: 300;
 }
 
@@ -172,9 +182,18 @@ body {
     color: #fff;
 }
 
+.tem2 :nth-last-child {
+    color: aliceblue;
+}
+
+.tem3 {
+    display: flex;
+    justify-content: center;
+}
+
 .tem3 span {
     font-size: 30px;
-    color: #fff;
+    color: rgb(13, 144, 238);
 }
 
 .details {
@@ -194,3 +213,26 @@ body {
 .details div > h3 {
     margin: 0;
 }
+
+/* input appearance */
+
+
+/* Change the autofill background color to your desired color (e.g., white or transparent) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    /* Use box-shadow to simulate a background color over the browser's default */
+    -webkit-box-shadow: 0 0 0 30px rgb(122, 169, 213) inset !important;
+    
+    /* Optional: Change the text color if needed */
+    -webkit-text-fill-color: #000000 !important; 
+}
+
+
+
+    background-color: ;
+
+
+
+
